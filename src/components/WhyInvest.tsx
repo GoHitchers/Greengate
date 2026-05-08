@@ -1,4 +1,4 @@
-import { MapPin, Home, TrendingUp, Shield, ShoppingBag, Users } from 'lucide-react';
+import { MapPin, Home, Tag, TrendingUp, Shield, ShoppingBag } from 'lucide-react';
 
 const reasons = [
   {
