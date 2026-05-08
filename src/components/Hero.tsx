@@ -10,7 +10,7 @@ export default function Hero() {
           alt="Luxury residential estate"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1a2e45]/75 via-[#1a2e45]/55 to-[#1a2e45]/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a2e45]/90 via-[#1a2e45]/75 to-[#1a2e45]/90" />
       </div>
 
       {/* Content */}
@@ -19,14 +19,14 @@ export default function Hero() {
           Muldersdrift · Krugersdorp · South Africa
         </p>
 
-        <h1 className="font-display text-white text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light leading-[1.08] max-w-3xl mb-6">
+        <h1 className="font-display text-white text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-light leading-[1.08] max-w-3xl mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">
           Greengate<br />
           <em className="font-light">Lifestyle Estate</em>
         </h1>
 
         <div className="w-16 h-px bg-[#A78F51] mb-8" />
 
-        <p className="font-sans text-white/80 text-sm sm:text-base leading-relaxed max-w-xl mb-10 font-light">
+        <p className="font-sans text-white/90 text-sm sm:text-base leading-relaxed max-w-xl mb-10 font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
           An approved residential development of over 290 homes in Muldersdrift.
           Secure your stand and build your dream home in a growing, connected community.
         </p>
@@ -50,15 +50,15 @@ export default function Hero() {
         <div className="mt-16 grid grid-cols-3 gap-8 sm:gap-16 border-t border-white/20 pt-10 w-full max-w-lg">
           <div>
             <p className="font-display text-white text-3xl sm:text-4xl font-light">290+</p>
-            <p className="font-sans text-white/60 text-[10px] tracking-widest uppercase mt-1">Residential Homes</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Residential Homes</p>
           </div>
           <div>
             <p className="font-display text-white text-3xl sm:text-4xl font-light">300</p>
-            <p className="font-sans text-white/60 text-[10px] tracking-widest uppercase mt-1">Max sqm Stands</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Max sqm Stands</p>
           </div>
           <div>
             <p className="font-display text-[#A78F51] text-3xl sm:text-4xl font-light">R199k</p>
-            <p className="font-sans text-white/60 text-[10px] tracking-widest uppercase mt-1">From Per Share</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">From Per Share</p>
           </div>
         </div>
       </div>

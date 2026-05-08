@@ -8,7 +8,7 @@ export default function HouseTypes() {
           alt="Modern residential homes"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-[#1a2e45]/82" />
+        <div className="absolute inset-0 bg-[#1a2e45]/85" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
@@ -17,12 +17,12 @@ export default function HouseTypes() {
             <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-5">
               Homes That Can Be Built
             </p>
-            <h2 className="font-display text-4xl lg:text-5xl text-white font-light leading-[1.1] mb-6">
+            <h2 className="font-display text-4xl lg:text-5xl text-white font-light leading-[1.1] mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">
               Modern Residences<br />
               <em>Designed for Living</em>
             </h2>
             <div className="w-12 h-px bg-[#A78F51] mb-8" />
-            <p className="font-sans text-white/75 text-sm leading-[1.9] mb-8 font-light">
+            <p className="font-sans text-white/85 text-sm leading-[1.9] mb-8 font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
               Modern residential homes designed for comfortable family living within a secure
               and growing community. From compact starter homes to spacious family residences,
               Greengate provides the canvas for your vision.
@@ -60,8 +60,8 @@ export default function HouseTypes() {
                   alt={label}
                   className="w-full h-36 lg:h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-[#2F5D8C]/30 group-hover:bg-[#2F5D8C]/10 transition-colors duration-300" />
-                <p className="absolute bottom-2 left-3 font-sans text-[10px] tracking-widest uppercase text-white/80">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent group-hover:from-black/40 group-hover:via-transparent group-hover:to-transparent transition-colors duration-300" />
+                <p className="absolute bottom-3 left-3 font-sans text-xs tracking-widest uppercase text-white font-medium drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)]">
                   {label}
                 </p>
               </div>
