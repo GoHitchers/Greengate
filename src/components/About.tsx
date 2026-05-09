@@ -6,7 +6,7 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <img
-              src="/2.jpg"
+              src="/2.jpeg"
               alt="Residential development"
               className="w-full h-[480px] object-cover"
             />
