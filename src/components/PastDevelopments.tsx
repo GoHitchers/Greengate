@@ -38,17 +38,17 @@ export default function PastDevelopments() {
           {/* Images */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=600&q=80"
+              src="/9.jpg"
               alt="Completed development"
               className="w-full h-56 object-cover col-span-2"
             />
             <img
-              src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=400&q=80"
+              src="/10.jpg"
               alt="Residential estate"
               className="w-full h-40 object-cover"
             />
             <img
-              src="https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?auto=compress&cs=tinysrgb&w=400&q=80"
+              src="/11.jpg"
               alt="Modern home"
               className="w-full h-40 object-cover"
             />

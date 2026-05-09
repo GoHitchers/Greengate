@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+          src="/1.jpg"
           alt="Luxury residential estate"
           className="w-full h-full object-cover object-center"
         />
@@ -28,7 +28,7 @@ export default function Hero() {
 
         <p className="font-sans text-white/90 text-sm sm:text-base leading-relaxed max-w-xl mb-10 font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
           An approved residential development of over 290 homes in Muldersdrift.
-          Secure your stand and build your dream home in a growing, connected community.
+          Own a full-package 3-bedroom home from R1.2 million in a growing, connected community.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
@@ -36,7 +36,7 @@ export default function Hero() {
             href="#contact"
             className="px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-all duration-300 inline-block"
           >
-            Secure Your Stand
+            View Available Homes
           </a>
           <a
             href="#about"
@@ -54,11 +54,11 @@ export default function Hero() {
           </div>
           <div>
             <p className="font-display text-white text-3xl sm:text-4xl font-light">300</p>
-            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Max sqm Stands</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">3-Bedroom Homes</p>
           </div>
           <div>
-            <p className="font-display text-[#A78F51] text-3xl sm:text-4xl font-light">R199k</p>
-            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">From Per Share</p>
+            <p className="font-display text-[#A78F51] text-3xl sm:text-4xl font-light">R1.2m</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">From Full Package</p>
           </div>
         </div>
       </div>

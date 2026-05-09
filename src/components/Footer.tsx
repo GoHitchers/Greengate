@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="w-8 h-px bg-[#A78F51] mb-5" />
             <p className="font-sans text-white/60 text-xs leading-[1.9]">
               An approved residential development of over 290 homes in Muldersdrift, Krugersdorp —
-              providing affordable stands in a growing, connected community.
+              providing affordable full-package 3-bedroom homes from R1.2 million in a growing, connected community.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ export default function Footer() {
               href="#contact"
               className="mt-8 inline-block px-6 py-3 bg-[#A78F51] text-white font-sans text-[10px] tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300"
             >
-              Secure Your Stand
+              View Available Homes
             </a>
           </div>
         </div>

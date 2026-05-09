@@ -60,7 +60,7 @@ export default function Nav({ scrolled }: NavProps) {
             href="#contact"
             className="ml-4 px-6 py-2.5 bg-[#A78F51] text-white text-xs tracking-widest uppercase font-sans hover:bg-[#8f7840] transition-colors duration-300"
           >
-            Secure Your Stand
+            View Available Homes
           </a>
         </nav>
 
@@ -93,7 +93,7 @@ export default function Nav({ scrolled }: NavProps) {
               onClick={() => setOpen(false)}
               className="mt-2 px-6 py-3 bg-[#A78F51] text-white text-xs tracking-widest uppercase font-sans text-center hover:bg-[#8f7840] transition-colors duration-300"
             >
-              Secure Your Stand
+              View Available Homes
             </a>
           </nav>
         </div>

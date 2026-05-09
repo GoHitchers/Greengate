@@ -7,7 +7,7 @@ const steps = [
   {
     number: '02',
     title: 'Visit the Site',
-    body: 'View the site in person and ask all your questions regarding the upcoming development and available stands.',
+    body: 'View the site in person and ask all your questions regarding the upcoming development and available homes.',
   },
   {
     number: '03',
@@ -21,8 +21,8 @@ const steps = [
   },
   {
     number: '05',
-    title: 'Secure Your Stand',
-    body: 'Once satisfied, proceed with securing your stand — complete and sign the agreement documents.',
+    title: 'Secure Your Home',
+    body: 'Once satisfied, proceed with securing your home — complete and sign the agreement documents.',
   },
   {
     number: '06',
@@ -41,7 +41,7 @@ export default function HowToSecure() {
           </p>
           <h2 className="font-display text-4xl lg:text-5xl text-[#2F5D8C] font-light">
             Six Simple Steps<br />
-            <em>to Your New Stand</em>
+            <em>to Your New Home</em>
           </h2>
           <div className="w-12 h-px bg-[#A78F51] mx-auto mt-6" />
         </div>

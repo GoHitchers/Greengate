@@ -151,7 +151,7 @@ export default function Contact() {
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     className="w-full bg-white/8 border border-white/20 text-white placeholder-white/30 px-4 py-3 font-sans text-sm focus:outline-none focus:border-[#A78F51] transition-colors duration-200 resize-none"
-                    placeholder="I'm interested in securing a stand at Greengate Lifestyle Estate..."
+                    placeholder="I'm interested in a 3-bedroom home at Greengate Lifestyle Estate..."
                   />
                 </div>
                 <button

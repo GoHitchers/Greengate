@@ -10,15 +10,15 @@ const news = [
 const details = [
   {
     icon: Ruler,
-    label: 'Stand Sizes',
-    value: '150 – 300 sqm',
-    sub: 'Residential stands',
+    label: 'Home Sizes',
+    value: '3-Bedroom',
+    sub: 'Full package homes',
   },
   {
     icon: Tag,
     label: 'Pricing',
-    value: 'From R199,500',
-    sub: 'Per share',
+    value: 'From R1.2 Mil',
+    sub: 'Full package',
   },
   {
     icon: MapPin,
@@ -85,14 +85,14 @@ export default function DevelopmentDetails() {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+              src="/8.jpg"
               alt="Construction site"
               className="w-full h-72 lg:h-80 object-cover"
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#2F5D8C]/10" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#2F5D8C]/60 to-transparent p-6">
               <p className="font-display text-white text-xl font-light italic">
-                "Secure your stand today before prices increase."
+                "Secure your 3-bedroom home today before prices increase."
               </p>
             </div>
           </div>

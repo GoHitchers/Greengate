@@ -6,7 +6,7 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=900&q=80"
+              src="/2.jpg"
               alt="Residential development"
               className="w-full h-[480px] object-cover"
             />

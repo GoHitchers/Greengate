@@ -4,7 +4,7 @@ export default function HouseTypes() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+          src="/3.jpg"
           alt="Modern residential homes"
           className="w-full h-full object-cover object-center"
         />
@@ -31,26 +31,26 @@ export default function HouseTypes() {
               href="#contact"
               className="inline-block px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300"
             >
-              Enquire About Stands
+              Enquire About Homes
             </a>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             {[
               {
-                src: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&q=80',
+                src: '/4.jpg',
                 label: 'Family Homes',
               },
               {
-                src: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&q=80',
+                src: '/5.jpg',
                 label: 'Modern Residences',
               },
               {
-                src: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=600&q=80',
+                src: '/6.jpg',
                 label: 'Secure Estates',
               },
               {
-                src: 'https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600&q=80',
+                src: '/7.jpg',
                 label: 'Spacious Interiors',
               },
             ].map(({ src, label }) => (

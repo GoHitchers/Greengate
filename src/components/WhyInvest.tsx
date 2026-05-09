@@ -8,13 +8,13 @@ const reasons = [
   },
   {
     icon: Home,
-    title: 'Build Your Dream Home',
-    body: 'Generous stand sizes from 150 to 300 sqm give you the freedom to design and construct your ideal residence.',
+    title: 'Your Dream Home, Ready',
+    body: 'Full-package 3-bedroom homes from R1.2 million — move-in ready with no hidden costs or extra building required.',
   },
   {
     icon: Tag,
     title: 'Affordable Entry Point',
-    body: 'Stands from just R199,500 per share, making this one of the most accessible residential investment opportunities in the area.',
+    body: 'Full-package homes from just R1.2 million, making this one of the most accessible residential investment opportunities in the area.',
   },
   {
     icon: TrendingUp,
