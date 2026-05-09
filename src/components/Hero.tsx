@@ -28,7 +28,7 @@ export default function Hero() {
 
         <p className="font-sans text-white/90 text-sm sm:text-base leading-relaxed max-w-xl mb-10 font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
           An approved residential development of over 290 homes in Muldersdrift.
-          Own a full-package 3-bedroom home from R1.2 million in a growing, connected community.
+          2-bedroom apartments from R880,000 and 3-bedroom homes from R1.2 million — full package, no hidden costs.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
@@ -47,18 +47,22 @@ export default function Hero() {
         </div>
 
         {/* Key stats */}
-        <div className="mt-16 grid grid-cols-3 gap-8 sm:gap-16 border-t border-white/20 pt-10 w-full max-w-lg">
+        <div className="mt-16 grid grid-cols-4 gap-6 sm:gap-12 border-t border-white/20 pt-10 w-full max-w-xl">
           <div>
             <p className="font-display text-white text-3xl sm:text-4xl font-light">290+</p>
             <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Residential Homes</p>
           </div>
           <div>
-            <p className="font-display text-white text-3xl sm:text-4xl font-light">300</p>
-            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">3-Bedroom Homes</p>
+            <p className="font-display text-white text-3xl sm:text-4xl font-light">2</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Bed Apartments</p>
           </div>
           <div>
-            <p className="font-display text-[#A78F51] text-3xl sm:text-4xl font-light">R1.2m</p>
-            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">From Full Package</p>
+            <p className="font-display text-white text-3xl sm:text-4xl font-light">3</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Bed Homes</p>
+          </div>
+          <div>
+            <p className="font-display text-[#A78F51] text-2xl sm:text-3xl font-light">R880k</p>
+            <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Starting From</p>
           </div>
         </div>
       </div>

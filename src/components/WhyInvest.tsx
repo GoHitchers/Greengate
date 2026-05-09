@@ -9,12 +9,12 @@ const reasons = [
   {
     icon: Home,
     title: 'Your Dream Home, Ready',
-    body: 'Full-package 3-bedroom homes from R1.2 million — move-in ready with no hidden costs or extra building required.',
+    body: 'Full-package properties from R880,000 — choose from 2-bedroom apartments or 3-bedroom homes, all move-in ready with no hidden costs.',
   },
   {
     icon: Tag,
     title: 'Affordable Entry Point',
-    body: 'Full-package homes from just R1.2 million, making this one of the most accessible residential investment opportunities in the area.',
+    body: '2-bedroom apartments from R880,000 and 3-bedroom homes from R1.2 million — making this one of the most accessible residential investment opportunities in the area.',
   },
   {
     icon: TrendingUp,

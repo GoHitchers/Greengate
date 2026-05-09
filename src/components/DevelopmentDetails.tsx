@@ -10,15 +10,15 @@ const news = [
 const details = [
   {
     icon: Ruler,
-    label: 'Home Sizes',
-    value: '3-Bedroom',
-    sub: 'Full package homes',
+    label: 'Property Types',
+    value: '2 & 3 Bed',
+    sub: 'Apartments & Homes',
   },
   {
     icon: Tag,
     label: 'Pricing',
-    value: 'From R1.2 Mil',
-    sub: 'Full package',
+    value: 'From R880k',
+    sub: '2-Bed apartments',
   },
   {
     icon: MapPin,
@@ -92,7 +92,7 @@ export default function DevelopmentDetails() {
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#2F5D8C]/10" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#2F5D8C]/60 to-transparent p-6">
               <p className="font-display text-white text-xl font-light italic">
-                "Secure your 3-bedroom home today before prices increase."
+                "Secure your home today — 2-bed apartments from R880k, 3-bed homes from R1.2m."
               </p>
             </div>
           </div>
