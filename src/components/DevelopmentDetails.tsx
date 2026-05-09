@@ -85,7 +85,7 @@ export default function DevelopmentDetails() {
 
           <div className="relative">
             <img
-              src="/8.jpg"
+              src="/8.jpeg"
               alt="Construction site"
               className="w-full h-72 lg:h-80 object-cover"
             />
