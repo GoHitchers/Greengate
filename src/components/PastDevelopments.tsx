@@ -38,17 +38,17 @@ export default function PastDevelopments() {
           {/* Images */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/9.jpg"
+              src="/9.jpeg"
               alt="Completed development"
               className="w-full h-56 object-cover col-span-2"
             />
             <img
-              src="/10.jpg"
+              src="/10.jpeg"
               alt="Residential estate"
               className="w-full h-40 object-cover"
             />
             <img
-              src="/11.jpg"
+              src="/11.jpeg"
               alt="Modern home"
               className="w-full h-40 object-cover"
             />
