@@ -77,10 +77,10 @@ export default function HouseTypes() {
         {/* Image gallery */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { src: '/4.jpg', label: '2-Bed Apartments' },
-            { src: '/5.jpg', label: 'Modern Interiors' },
-            { src: '/6.jpg', label: '3-Bed Homes' },
-            { src: '/7.jpg', label: 'Spacious Living' },
+            { src: '/4.jpeeg', label: '2-Bed Apartments' },
+            { src: '/5.jpeg', label: 'Modern Interiors' },
+            { src: '/6.jpeg', label: '3-Bed Homes' },
+            { src: '/7.jpeg', label: 'Spacious Living' },
           ].map(({ src, label }) => (
             <div key={label} className="relative overflow-hidden group">
               <img
