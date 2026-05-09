@@ -4,7 +4,7 @@ export default function HouseTypes() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/3.jpg"
+          src="/3.jpeg"
           alt="Modern residential homes"
           className="w-full h-full object-cover object-center"
         />
