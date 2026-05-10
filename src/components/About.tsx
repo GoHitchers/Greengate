@@ -14,7 +14,7 @@ export default function About() {
             <div className="absolute -bottom-8 -right-4 lg:-right-10 bg-[#2F5D8C] text-white px-8 py-7 max-w-[220px] shadow-xl">
               <p className="font-display text-3xl font-light">290+</p>
               <p className="font-sans text-[10px] tracking-widest uppercase text-white/70 mt-1">Approved Homes</p>
-              <div className="w-8 h-px bg-[#A78F51] mt-3" />
+              <div className="w-8 h-px bg-[#4A7C59] mt-3" />
               <p className="font-sans text-[10px] text-white/60 mt-2 leading-relaxed">
                 Muldersdrift,<br />Krugersdorp
               </p>
@@ -23,14 +23,14 @@ export default function About() {
 
           {/* Text */}
           <div className="lg:pl-6">
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-5">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-5">
               About the Development
             </p>
             <h2 className="font-display text-4xl lg:text-5xl text-[#2F5D8C] font-light leading-[1.1] mb-6">
               A Community Built<br />
               <em>for the Future</em>
             </h2>
-            <div className="w-12 h-px bg-[#A78F51] mb-8" />
+            <div className="w-12 h-px bg-[#4A7C59] mb-8" />
             <p className="font-sans text-[#40454A] text-sm leading-[1.9] mb-6 font-light">
               Greengate Lifestyle Estate is an approved residential development of over 290 homes
               located in Muldersdrift, Krugersdorp — alongside Beyers Naudé Drive and College Road.
@@ -44,7 +44,7 @@ export default function About() {
 
             {/* Location badge */}
             <div className="border border-gray-200 p-5 bg-[#F8F8F8]">
-              <p className="font-sans text-[10px] tracking-widest uppercase text-[#A78F51] mb-2">Location</p>
+              <p className="font-sans text-[10px] tracking-widest uppercase text-[#4A7C59] mb-2">Location</p>
               <p className="font-sans text-sm text-[#40454A] leading-relaxed font-light">
                 Portion 142 of the Farm Rietfontein 189 IQ<br />
                 Beyers Naudé Drive, Muldersdrift, Krugersdorp

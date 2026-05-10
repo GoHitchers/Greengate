@@ -40,7 +40,7 @@ export default function Nav({ scrolled }: NavProps) {
             <a
               key={l.href}
               href={l.href}
-              className={`font-sans text-xs tracking-widest uppercase transition-colors duration-300 hover:text-[#A78F51] ${
+              className={`font-sans text-xs tracking-widest uppercase transition-colors duration-300 hover:text-[#4A7C59] ${
                 scrolled ? 'text-[#40454A]' : 'text-white/90'
               }`}
             >
@@ -49,7 +49,7 @@ export default function Nav({ scrolled }: NavProps) {
           ))}
           <a
             href="#contact"
-            className="ml-4 px-6 py-2.5 bg-[#A78F51] text-white text-xs tracking-widest uppercase font-sans hover:bg-[#8f7840] transition-colors duration-300"
+            className="ml-4 px-6 py-2.5 bg-[#4A7C59] text-white text-xs tracking-widest uppercase font-sans hover:bg-[#3a6349] transition-colors duration-300"
           >
             View Available Homes
           </a>
@@ -74,7 +74,7 @@ export default function Nav({ scrolled }: NavProps) {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="font-sans text-xs tracking-widest uppercase text-[#40454A] hover:text-[#A78F51] transition-colors"
+                className="font-sans text-xs tracking-widest uppercase text-[#40454A] hover:text-[#4A7C59] transition-colors"
               >
                 {l.label}
               </a>
@@ -82,7 +82,7 @@ export default function Nav({ scrolled }: NavProps) {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 px-6 py-3 bg-[#A78F51] text-white text-xs tracking-widest uppercase font-sans text-center hover:bg-[#8f7840] transition-colors duration-300"
+              className="mt-2 px-6 py-3 bg-[#4A7C59] text-white text-xs tracking-widest uppercase font-sans text-center hover:bg-[#3a6349] transition-colors duration-300"
             >
               View Available Homes
             </a>

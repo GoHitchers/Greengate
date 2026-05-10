@@ -40,14 +40,14 @@ export default function WhyInvest() {
         {/* Header */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-end mb-16 lg:mb-20">
           <div>
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-5">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-5">
               Why Invest
             </p>
             <h2 className="font-display text-4xl lg:text-5xl text-[#2F5D8C] font-light leading-[1.1]">
               Six Compelling Reasons<br />
               <em>to Choose Greengate</em>
             </h2>
-            <div className="w-12 h-px bg-[#A78F51] mt-6" />
+            <div className="w-12 h-px bg-[#4A7C59] mt-6" />
           </div>
           <p className="font-sans text-[#40454A] text-sm leading-[1.9] font-light lg:pb-2">
             Greengate Lifestyle Estate offers a rare combination of location, affordability, and
@@ -67,7 +67,7 @@ export default function WhyInvest() {
                 <div className="w-10 h-10 bg-[#2F5D8C]/6 flex items-center justify-center group-hover:bg-[#2F5D8C]/12 transition-colors duration-300">
                   <Icon size={18} className="text-[#2F5D8C]" />
                 </div>
-                <span className="font-sans text-[10px] text-[#A78F51] tracking-widest uppercase">
+                <span className="font-sans text-[10px] text-[#4A7C59] tracking-widest uppercase">
                   0{i + 1}
                 </span>
               </div>

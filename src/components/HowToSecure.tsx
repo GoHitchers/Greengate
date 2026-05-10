@@ -71,14 +71,14 @@ export default function HowToSecure() {
     <section id="how-to-secure" className="py-24 lg:py-32 bg-[#F8F8F8]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="text-center mb-16 lg:mb-20">
-          <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-5">
+          <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-5">
             How to Purchase
           </p>
           <h2 className="font-display text-4xl lg:text-5xl text-[#2F5D8C] font-light">
             Your Path<br />
             <em>to Home Ownership</em>
           </h2>
-          <div className="w-12 h-px bg-[#A78F51] mx-auto mt-6" />
+          <div className="w-12 h-px bg-[#4A7C59] mx-auto mt-6" />
         </div>
 
         {/* Steps */}
@@ -93,14 +93,14 @@ export default function HowToSecure() {
                   <div className="w-12 h-12 bg-[#2F5D8C]/8 flex items-center justify-center">
                     <Icon size={20} className="text-[#2F5D8C]" />
                   </div>
-                  <span className="font-display text-sm text-[#A78F51] tracking-wider">{number}</span>
+                  <span className="font-display text-sm text-[#4A7C59] tracking-wider">{number}</span>
                 </div>
                 <div className="flex-1">
                   <h3 className="font-display text-xl text-[#2F5D8C] mb-4">{title}</h3>
                   <ul className="space-y-3">
                     {bullets.map((bullet, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <span className="mt-2 w-1 h-1 rounded-full bg-[#A78F51] flex-shrink-0" />
+                        <span className="mt-2 w-1 h-1 rounded-full bg-[#4A7C59] flex-shrink-0" />
                         <p className="font-sans text-sm text-[#40454A] leading-[1.8] font-light">{bullet}</p>
                       </li>
                     ))}
@@ -114,7 +114,7 @@ export default function HowToSecure() {
         {/* Important Tips */}
         <div className="mb-16">
           <div className="text-center mb-10">
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-3">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-3">
               Important Tips
             </p>
             <h3 className="font-display text-2xl lg:text-3xl text-[#2F5D8C] font-light">
@@ -127,8 +127,8 @@ export default function HowToSecure() {
                 key={title}
                 className="bg-white p-8 border border-gray-100 hover:border-[#2F5D8C]/20 hover:shadow-md transition-all duration-300"
               >
-                <div className="w-10 h-10 bg-[#A78F51]/10 flex items-center justify-center mb-5">
-                  <TipIcon size={18} className="text-[#A78F51]" />
+                <div className="w-10 h-10 bg-[#4A7C59]/10 flex items-center justify-center mb-5">
+                  <TipIcon size={18} className="text-[#4A7C59]" />
                 </div>
                 <h4 className="font-display text-lg text-[#2F5D8C] mb-3">{title}</h4>
                 <p className="font-sans text-sm text-[#40454A] leading-[1.8] font-light">{body}</p>
@@ -140,7 +140,7 @@ export default function HowToSecure() {
         {/* CTA bar */}
         <div className="bg-[#2F5D8C] p-10 lg:p-14 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           <div>
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-3">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-3">
               Ready to Get Started?
             </p>
             <h3 className="font-display text-3xl lg:text-4xl text-white font-light">
@@ -150,7 +150,7 @@ export default function HowToSecure() {
           <div className="flex flex-col sm:flex-row gap-4 flex-shrink-0">
             <a
               href="tel:0792758821"
-              className="px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300 text-center"
+              className="px-8 py-4 bg-[#4A7C59] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#3a6349] transition-colors duration-300 text-center"
             >
               Call Us Now
             </a>

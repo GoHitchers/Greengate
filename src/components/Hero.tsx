@@ -15,7 +15,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pt-32 pb-20 flex flex-col items-start">
-        <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-6">
+        <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-6">
           Muldersdrift · Krugersdorp · South Africa
         </p>
 
@@ -24,7 +24,7 @@ export default function Hero() {
           <em className="font-light">Lifestyle Estate</em>
         </h1>
 
-        <div className="w-16 h-px bg-[#A78F51] mb-8" />
+        <div className="w-16 h-px bg-[#4A7C59] mb-8" />
 
         <p className="font-sans text-white/90 text-sm sm:text-base leading-relaxed max-w-xl mb-10 font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
           An approved residential development of over 290 homes in Muldersdrift.
@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="#contact"
-            className="px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-all duration-300 inline-block"
+            className="px-8 py-4 bg-[#4A7C59] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#3a6349] transition-all duration-300 inline-block"
           >
             View Available Homes
           </a>
@@ -61,7 +61,7 @@ export default function Hero() {
             <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Bed Homes</p>
           </div>
           <div>
-            <p className="font-display text-[#A78F51] text-2xl sm:text-3xl font-light">R880k</p>
+            <p className="font-display text-[#4A7C59] text-2xl sm:text-3xl font-light">R880k</p>
             <p className="font-sans text-white/70 text-[10px] tracking-widest uppercase mt-1">Starting From</p>
           </div>
         </div>

@@ -20,7 +20,7 @@ export default function Footer() {
                 className="h-14 w-auto brightness-0 invert"
               />
             </div>
-            <div className="w-8 h-px bg-[#A78F51] mb-5" />
+            <div className="w-8 h-px bg-[#4A7C59] mb-5" />
             <p className="font-sans text-white/60 text-xs leading-[1.9]">
               An approved residential development of over 290 homes in Muldersdrift, Krugersdorp —
               providing affordable full-package properties — 2-bedroom apartments from R880,000 and 3-bedroom homes from R1.2 million — in a growing, connected community.
@@ -29,7 +29,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#A78F51] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#4A7C59] mb-6">
               Navigation
             </p>
             <ul className="space-y-3">
@@ -48,7 +48,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#A78F51] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#4A7C59] mb-6">
               Get in Touch
             </p>
             <div className="space-y-3">
@@ -72,7 +72,7 @@ export default function Footer() {
 
             <a
               href="#contact"
-              className="mt-8 inline-block px-6 py-3 bg-[#A78F51] text-white font-sans text-[10px] tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300"
+              className="mt-8 inline-block px-6 py-3 bg-[#4A7C59] text-white font-sans text-[10px] tracking-widest uppercase hover:bg-[#3a6349] transition-colors duration-300"
             >
               View Available Homes
             </a>

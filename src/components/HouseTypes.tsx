@@ -13,14 +13,14 @@ export default function HouseTypes() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
         <div className="text-center mb-16">
-          <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-5">
+          <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-5">
             Property Options
           </p>
           <h2 className="font-display text-4xl lg:text-5xl text-white font-light leading-[1.1] mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">
             Modern Residences<br />
             <em>Designed for Living</em>
           </h2>
-          <div className="w-12 h-px bg-[#A78F51] mx-auto mb-8" />
+          <div className="w-12 h-px bg-[#4A7C59] mx-auto mb-8" />
           <p className="font-sans text-white/85 text-sm leading-[1.9] max-w-2xl mx-auto font-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
             Choose from 2-bedroom apartments or 3-bedroom homes — all full-package, move-in ready
             properties within a secure and growing community.
@@ -31,21 +31,21 @@ export default function HouseTypes() {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* 2-Bedroom Apartment */}
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 p-8 lg:p-10 hover:bg-white/15 transition-all duration-300">
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-4">
               Apartments
             </p>
             <h3 className="font-display text-3xl lg:text-4xl text-white font-light mb-2">
               2-Bedroom
             </h3>
-            <p className="font-display text-[#A78F51] text-2xl font-light mb-6">From R880,000</p>
-            <div className="w-8 h-px bg-[#A78F51] mb-6" />
+            <p className="font-display text-[#4A7C59] text-2xl font-light mb-6">From R880,000</p>
+            <div className="w-8 h-px bg-[#4A7C59] mb-6" />
             <p className="font-sans text-white/75 text-sm leading-[1.8] font-light mb-8">
               Modern 2-bedroom apartments designed for comfortable living. Ideal for young
               professionals, first-time buyers, or as a rental investment within a secure estate.
             </p>
             <a
               href="#contact"
-              className="inline-block px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300"
+              className="inline-block px-8 py-4 bg-[#4A7C59] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#3a6349] transition-colors duration-300"
             >
               Enquire Now
             </a>
@@ -53,21 +53,21 @@ export default function HouseTypes() {
 
           {/* 3-Bedroom Home */}
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 p-8 lg:p-10 hover:bg-white/15 transition-all duration-300">
-            <p className="font-sans text-[#A78F51] text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="font-sans text-[#4A7C59] text-xs tracking-[0.3em] uppercase mb-4">
               Family Homes
             </p>
             <h3 className="font-display text-3xl lg:text-4xl text-white font-light mb-2">
               3-Bedroom
             </h3>
-            <p className="font-display text-[#A78F51] text-2xl font-light mb-6">From R1.2 Million</p>
-            <div className="w-8 h-px bg-[#A78F51] mb-6" />
+            <p className="font-display text-[#4A7C59] text-2xl font-light mb-6">From R1.2 Million</p>
+            <div className="w-8 h-px bg-[#4A7C59] mb-6" />
             <p className="font-sans text-white/75 text-sm leading-[1.8] font-light mb-8">
               Spacious 3-bedroom homes designed for family living. Full-package properties with
               generous living areas in a secure, connected community.
             </p>
             <a
               href="#contact"
-              className="inline-block px-8 py-4 bg-[#A78F51] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#8f7840] transition-colors duration-300"
+              className="inline-block px-8 py-4 bg-[#4A7C59] text-white font-sans text-xs tracking-widest uppercase hover:bg-[#3a6349] transition-colors duration-300"
             >
               Enquire Now
             </a>
