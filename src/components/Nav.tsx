@@ -1,10 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
-interface NavProps {
-  scrolled: boolean;
-}
-
 const links = [
   { label: 'About', href: '#about' },
   { label: 'Development', href: '#development' },
@@ -13,18 +9,13 @@ const links = [
   { label: 'Contact', href: '#contact' },
 ];
 
-export default function Nav({ scrolled }: NavProps) {
+export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'bg-white shadow-sm border-b border-gray-100'
-          : 'bg-transparent'
-      }`}
-    >
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-100 transition-all duration-500">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
+        
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img
@@ -34,19 +25,18 @@ export default function Nav({ scrolled }: NavProps) {
           />
         </a>
 
-        {/* Desktop nav */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className={`font-sans text-xs tracking-widest uppercase transition-colors duration-300 hover:text-[#4A7C59] ${
-                scrolled ? 'text-[#40454A]' : 'text-white/90'
-              }`}
+              className="font-sans text-xs tracking-widest uppercase text-[#40454A] transition-colors duration-300 hover:text-[#4A7C59]"
             >
               {l.label}
             </a>
           ))}
+
           <a
             href="#contact"
             className="ml-4 px-6 py-2.5 bg-[#4A7C59] text-white text-xs tracking-widest uppercase font-sans hover:bg-[#3a6349] transition-colors duration-300"
@@ -55,9 +45,9 @@ export default function Nav({ scrolled }: NavProps) {
           </a>
         </nav>
 
-        {/* Mobile toggle */}
+        {/* Mobile Menu Button */}
         <button
-          className={`md:hidden transition-colors duration-300 ${scrolled ? 'text-[#2F5D8C]' : 'text-white'}`}
+          className="md:hidden text-[#2F5D8C] transition-colors duration-300"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
         >
@@ -65,7 +55,7 @@ export default function Nav({ scrolled }: NavProps) {
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Navigation */}
       {open && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
           <nav className="flex flex-col px-6 py-6 gap-5">
@@ -79,6 +69,7 @@ export default function Nav({ scrolled }: NavProps) {
                 {l.label}
               </a>
             ))}
+
             <a
               href="#contact"
               onClick={() => setOpen(false)}
