@@ -79,7 +79,7 @@ export default function HouseTypes() {
           {[
             { src: '/4.jpeg', label: '2-Bed Apartments' },
             { src: '/5.jpeg', label: 'Modern Interiors' },
-            { src: '/2.jpeg', label: '3-Bed Homes' },
+            { src: '/12.jpeg', label: '3-Bed Homes' },
             { src: '/6.jpeg', label: 'Spacious Living' },
           ].map(({ src, label }) => (
             <div key={label} className="relative overflow-hidden group">
