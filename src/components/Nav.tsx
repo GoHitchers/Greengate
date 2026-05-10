@@ -9,7 +9,7 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Development', href: '#development' },
   { label: 'Why Invest', href: '#why-invest' },
-  { label: 'How to Secure', href: '#how-to-secure' },
+  { label: 'How to Purchase', href: '#how-to-secure' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -26,21 +26,12 @@ export default function Nav({ scrolled }: NavProps) {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
         {/* Logo */}
-        <a href="#" className="flex flex-col leading-none">
-          <span
-            className={`font-display text-xl tracking-wider font-semibold transition-colors duration-300 ${
-              scrolled ? 'text-[#2F5D8C]' : 'text-white'
-            }`}
-          >
-            GREENGATE
-          </span>
-          <span
-            className={`font-sans text-[10px] tracking-[0.25em] uppercase transition-colors duration-300 ${
-              scrolled ? 'text-[#A78F51]' : 'text-[#A78F51]'
-            }`}
-          >
-            Lifestyle Estate
-          </span>
+        <a href="#" className="flex items-center">
+          <img
+            src="/logo.png"
+            alt="Greengate Lifestyle Estate"
+            className="h-12 w-auto transition-all duration-300"
+          />
         </a>
 
         {/* Desktop nav */}

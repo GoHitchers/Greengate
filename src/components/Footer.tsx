@@ -2,7 +2,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Development Details', href: '#development' },
   { label: 'Why Invest', href: '#why-invest' },
-  { label: 'How to Secure', href: '#how-to-secure' },
+  { label: 'How to Purchase', href: '#how-to-secure' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -14,12 +14,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-5">
-              <p className="font-display text-2xl tracking-wider font-semibold text-white">
-                GREENGATE
-              </p>
-              <p className="font-sans text-[10px] tracking-[0.25em] uppercase text-[#A78F51] mt-0.5">
-                Lifestyle Estate
-              </p>
+              <img
+                src="/logo.png"
+                alt="Greengate Lifestyle Estate"
+                className="h-14 w-auto brightness-0 invert"
+              />
             </div>
             <div className="w-8 h-px bg-[#A78F51] mb-5" />
             <p className="font-sans text-white/60 text-xs leading-[1.9]">
